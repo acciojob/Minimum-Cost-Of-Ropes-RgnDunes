@@ -1,4 +1,6 @@
-function findMinimumCost(ropeLengths) {
+function calculateMinimumCost() {
+	var input = document.querySelector("input").value;
+	var ropeLengths = input.split(",");
   const n = ropeLengths.length;
 
   // Sort the rope lengths in non-decreasing order
